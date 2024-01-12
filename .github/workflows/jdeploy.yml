@@ -28,6 +28,7 @@ jobs:
       - name: Build with Ant
         run: |
           cd sql12
+          mkdir -p output/work/bin
           ant compileCore
       - name: Build App Installer Bundles
         uses: shannah/jdeploy@master
