@@ -1,0 +1,17 @@
+{
+    "bin": {"squirrel-sql-code": "jdeploy-bundle/jdeploy.js"},
+    "name": "SQirreL SQL Client",
+    "jdeploy": {
+        "jdk": false,
+        "javaVersion": "11",
+        "jar": "sql12/output/dist/squirrel-sql.jar"
+    },
+    "dependencies": {
+        "command-exists-promise": "^2.0.2",
+        "node-fetch": "2.6.7",
+        "tar": "^4.4.8",
+        "yauzl": "^2.10.0",
+        "jdeploy": "^4.0.36",
+        "shelljs": "^0.8.4"
+    }
+}
