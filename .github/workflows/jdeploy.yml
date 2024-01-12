@@ -26,7 +26,9 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
       - name: Build with Ant
-        run: cd sql12 && ant compileCore
+        run: |
+          cd sql12
+          ant compileCore
       - name: Build App Installer Bundles
         uses: shannah/jdeploy@master
         with:
