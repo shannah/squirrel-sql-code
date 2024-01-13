@@ -1,6 +1,7 @@
 {
     "bin": {"squirrel-sql-code": "jdeploy-bundle/jdeploy.js"},
     "name": "SQirreL SQL Client",
+    "description": "A universal SQL Client",
     "jdeploy": {
         "jdk": false,
         "javaVersion": "11",
