@@ -1,11 +1,12 @@
 {
     "bin": {"squirrel-sql-code": "jdeploy-bundle/jdeploy.js"},
-    "name": "SQirreL SQL Client",
+    "name": "squirrel-sql-client",
     "description": "A universal SQL Client",
     "jdeploy": {
         "jdk": false,
         "javaVersion": "11",
-        "jar": "sql12/output/dist/squirrel-sql.jar"
+        "jar": "sql12/output/dist/squirrel-sql.jar",
+        "title": "SQirreL SQL Client"
     },
     "dependencies": {
         "command-exists-promise": "^2.0.2",
